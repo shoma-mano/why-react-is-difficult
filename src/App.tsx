@@ -15,9 +15,12 @@ function App() {
   }
 
   return (
+    <>
       <button onClick={onClick}>
-          count is {count}
+          add
       </button>
+      <p>{count}</p>
+    </>
   )
 }
 
