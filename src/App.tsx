@@ -11,7 +11,7 @@ function App() {
 
   const onClick = ()=>{
     addCount()
-    window.alert(`countが${count}になりました。もう一度押すと${nextCount}になります。`)
+    window.alert(`ボタンを押してcountが${count}になりました。もう一度押すと${nextCount}になります。`)
   }
 
   return (
